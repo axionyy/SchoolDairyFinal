@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RaspisaniyeActivity">
+
+    <TextView
+        android:id="@+id/jurnal_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Расписание"
+        android:textSize="35dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:background="@drawable/filler" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/transpanent"
+        android:src="@drawable/filler"
+        app:layout_constraintTop_toTopOf="@+id/profile_nav_button"/>
+
+    <ImageButton
+        android:id="@+id/home_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home"
+        android:background="@color/transpanent"
+        android:onClick="setHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageButton
+        android:id="@+id/journal_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/journal"
+        android:background="@color/transpanent"
+        android:onClick="setJournal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/result_nav_button"
+        app:layout_constraintLeft_toLeftOf="@+id/home_nav_button"/>
+
+    <ImageButton
+        android:id="@+id/result_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/result"
+        android:background="@color/transpanent"
+        android:onClick="setResult"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/myClass_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/myclass"
+        android:background="@color/transpanent"
+        android:onClick="setClass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/result_nav_button"
+        app:layout_constraintRight_toRightOf="@+id/profile_nav_button"/>
+
+    <ImageButton
+        android:id="@+id/profile_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile"
+        android:background="@color/transpanent"
+        android:onClick="setProfile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <Button
+        android:id="@+id/ponedelnik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Понедельник"
+        android:textSize="30dp"
+        android:background="@color/transpanent"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        android:onClick="mon"
+        app:layout_constraintTop_toBottomOf="@+id/jurnal_text"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <Button
+        android:id="@+id/vtornik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вторник"
+        android:textSize="30dp"
+        android:background="@color/transpanent"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        app:layout_constraintTop_toBottomOf="@+id/ponedelnik"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <Button
+        android:id="@+id/sreda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Среда"
+        android:textSize="30dp"
+        android:background="@color/transpanent"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        app:layout_constraintTop_toBottomOf="@+id/vtornik"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <Button
+        android:id="@+id/cheyverg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Четверг"
+        android:textSize="30dp"
+        android:background="@color/transpanent"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        app:layout_constraintTop_toBottomOf="@+id/sreda"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <Button
+        android:id="@+id/pytnicha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пятница"
+        android:textSize="30dp"
+        android:background="@color/transpanent"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        app:layout_constraintTop_toBottomOf="@+id/cheyverg"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <Button
+        android:id="@+id/subbota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Суббота"
+        android:textSize="30dp"
+        android:background="@color/transpanent"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        app:layout_constraintTop_toBottomOf="@+id/pytnicha"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <Button
+        android:id="@+id/voskresene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Воскресенье"
+        android:textSize="30dp"
+        android:background="@color/transpanent"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3"
+        app:layout_constraintTop_toBottomOf="@+id/subbota"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
