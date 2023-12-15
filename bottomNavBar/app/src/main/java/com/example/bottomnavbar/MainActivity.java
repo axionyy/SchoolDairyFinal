@@ -39,12 +39,13 @@ public class MainActivity extends AppCompatActivity {
         logpas.put("9v-12", "Comissarov1!");
         logpas.put("9a-21", "Sakicheva1!");
         logpas.put("9s-17", "Morozova1!");
-        logpas.put("1", "1");
         logpas.put("", "");
+
+
 
         if (logpas.containsKey(login)){
             if (logpas.get(login).equals(password)){
-                Intent intent = new Intent(this, JournalActivity.class);
+                Intent intent = new Intent(this, TestingActivity.class);
                 startActivity(intent);
             }
             else {
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 throw new RuntimeException(e);
             }
         }
+
 
 
 

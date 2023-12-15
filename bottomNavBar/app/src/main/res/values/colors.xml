@@ -4,5 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="transpanent">#00FFFFFF</color>
     <color name="sch00l">#81c3cf</color>
-
+    <color name="white_but_no">#45D1D1D1</color>
 </resources>

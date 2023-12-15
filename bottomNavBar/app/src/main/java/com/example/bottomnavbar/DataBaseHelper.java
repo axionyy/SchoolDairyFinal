@@ -13,9 +13,9 @@ import java.io.OutputStream;
 
 class DatabaseHelper extends SQLiteOpenHelper {
     private static String DB_PATH; // полный путь к базе данных
-    private static String DB_NAME = "bd.db";
+    private static String DB_NAME = "schoolDairyDB.db";
     private static final int SCHEMA = 1; // версия базы данных
-    static final String TABLE = "users"; // название таблицы в бд
+    static final String TABLE_STUD = "student"; // название таблицы в бд
     // названия столбцов
     static final String COLUMN_ID = "id";
     static final String COLUMN_FIRSTNAME = "firstName";
@@ -24,8 +24,7 @@ class DatabaseHelper extends SQLiteOpenHelper {
     static final String COLUMN_LOGIN = "login";
     static final String COLUMN_PASSWORD = "password";
     static final String COLUMN_BIRTH = "birth";
-    static final String COLUMN_FIOPARRENT = "fioParent";
-    static final String COLUMN_SNILS = "snils";
+    static final String COLUMN_CLASS = "class";
 
     private Context myContext;
 
