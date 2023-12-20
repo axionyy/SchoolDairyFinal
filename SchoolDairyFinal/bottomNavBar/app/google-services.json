@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172498404063",
+    "project_id": "schooldairy41",
+    "storage_bucket": "schooldairy41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172498404063:android:2410138a5e7ca0ce775f6a",
+        "android_client_info": {
+          "package_name": "com.example.bottomnavbar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC7yKAggbGLRRqKHvsTkByOaWiF8GKlrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
