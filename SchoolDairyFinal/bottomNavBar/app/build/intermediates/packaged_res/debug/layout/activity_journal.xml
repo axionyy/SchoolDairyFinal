@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JournalActivity">
+
+    <TextView
+        android:id="@+id/jurnal_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/filler"
+        android:gravity="center"
+        android:text="Журнал"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transpanent"
+        android:src="@drawable/filler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile_nav_button" />
+
+    <ImageButton
+        android:id="@+id/home_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home"
+        android:background="@color/transpanent"
+        android:onClick="setHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageButton
+        android:id="@+id/journal_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/journal"
+        android:background="@color/transpanent"
+        android:onClick="setJournal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/result_nav_button"
+        app:layout_constraintLeft_toLeftOf="@+id/home_nav_button"/>
+
+    <ImageButton
+        android:id="@+id/result_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/result"
+        android:background="@color/transpanent"
+        android:onClick="setResult"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/myClass_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/myclass"
+        android:background="@color/transpanent"
+        android:onClick="setClass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/result_nav_button"
+        app:layout_constraintRight_toRightOf="@+id/profile_nav_button"/>
+
+    <ImageButton
+        android:id="@+id/profile_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile"
+        android:background="@color/transpanent"
+        android:onClick="setProfile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:layout_constraintTop_toBottomOf="@+id/jurnal_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jurnal_text" >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Предмет"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Оценки"
+            android:layout_column="4"
+            android:layout_row="0"
+            android:layout_columnSpan="5"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="13"
+            android:layout_columnSpan="1"
+            android:layout_gravity="center"
+            android:text="Средний балл" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="Алгебра"
+            android:layout_columnSpan="3"
+            android:layout_row="1"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="1"
+            android:layout_column="5"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="5"
+            android:textColor="@color/black"
+            android:onClick="a5"/>
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="1"
+            android:layout_column="7"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="3"
+            android:onClick="a3"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="1"
+            android:layout_column="8"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="4"
+            android:onClick="a4"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="3,00"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="Английский язык"
+            android:layout_columnSpan="3"
+            android:layout_row="2"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="2"
+            android:layout_column="5"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="4"
+            android:onClick="ino1"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="2"
+            android:layout_column="7"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="5"
+            android:onClick="ino2"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="4,50"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="Биология"
+            android:layout_columnSpan="3"
+            android:layout_row="3"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="3"
+            android:layout_column="4"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="3"
+            android:onClick="bio1"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="3"
+            android:layout_column="6"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="3"
+            android:onClick="bio2"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="3"
+            android:layout_column="8"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="3"
+            android:onClick="bio3"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="3,00"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="Геометрия"
+            android:layout_columnSpan="3"
+            android:layout_row="4"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="4"
+            android:layout_column="5"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="3"
+            android:onClick="geom1"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="4"
+            android:layout_column="6"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="4"
+            android:onClick="geom2"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="4"
+            android:layout_column="8"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="2"
+            android:onClick="geom3"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="3,00"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="География"
+            android:layout_columnSpan="3"
+            android:layout_row="5"/>
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="5"
+            android:layout_column="4"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="4"
+            android:onClick="geo1"
+            android:textColor="@color/black" />
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="5"
+            android:padding="1dp"
+            android:text="3"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:onClick="geo42"
+            android:layout_row="5"/>
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="5"
+            android:layout_column="8"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="4"
+            android:onClick="geo3"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="3,67"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="История"
+            android:layout_row="6"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="6"
+            android:padding="1dp"
+            android:text="2"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="6"
+            android:onClick="his1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="2,00"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="ОБЖ"
+            android:layout_row="7"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="4"
+            android:padding="1dp"
+            android:text="3"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="7"
+            android:onClick="obz1"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="8"
+            android:padding="1dp"
+            android:text="4"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="7"
+            android:onClick="obz2"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="3,50"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="ИЗО"
+            android:layout_row="8"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="6"
+            android:padding="1dp"
+            android:text="5"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="8"
+            android:onClick="izo1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="5,00"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="Химия"
+            android:layout_row="9"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="5"
+            android:padding="1dp"
+            android:text="4"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="9"
+            android:onClick="chem1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="9"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="4,00"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="Физика"
+            android:layout_row="10"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="4"
+            android:padding="1dp"
+            android:text="4"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="10"
+            android:onClick="fiz1"/>
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="6"
+            android:padding="1dp"
+            android:text="4"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="10"
+            android:onClick="fiz2"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="7"
+            android:padding="1dp"
+            android:text="4"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="10"
+            android:onClick="fiz3"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="10"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="4,00"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="Физ-ра"
+            android:layout_row="11"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="5"
+            android:padding="1dp"
+            android:text="3"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="11"
+            android:onClick="fizra1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="11"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="3,50"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="Литература"
+            android:layout_row="12"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="4"
+            android:padding="1dp"
+            android:text="5"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="12"
+            android:onClick="lit1"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="7"
+            android:padding="1dp"
+            android:text="5"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="12"
+            android:onClick="lit2"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="8"
+            android:padding="1dp"
+            android:text="5"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="12"
+            android:onClick="lit3"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="12"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="5,00"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="Русский язык"
+            android:layout_row="13"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="4"
+            android:padding="1dp"
+            android:text="3"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="13"
+            android:onClick="rus1"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="5"
+            android:padding="1dp"
+            android:text="3"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="13"
+            android:onClick="rus2"/>
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="13"
+            android:layout_column="6"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="2"
+            android:textColor="@color/black"
+            android:onClick="rus3"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="7"
+            android:padding="1dp"
+            android:text="3"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="13"
+            android:onClick="rus4"/>
+
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_row="13"
+            android:layout_column="8"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:padding="1dp"
+            android:text="2"
+            android:textColor="@color/black"
+            android:onClick="rus5"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="13"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="2,60"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="Обществозннание"
+            android:layout_row="14"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="6"
+            android:padding="1dp"
+            android:text="3"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="14"
+            android:onClick="obsh1"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="8"
+            android:padding="1dp"
+            android:text="4"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="14"
+            android:onClick="obsh2"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="14"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="3,50"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="Технология"
+            android:layout_row="15"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="4"
+            android:padding="1dp"
+            android:text="5"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="15"
+            android:onClick="tech1"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="15"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="5,00"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="Музыка"
+            android:layout_row="16"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="5"
+            android:padding="1dp"
+            android:text="5"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="16"
+            android:onClick="myz1"/>
+        <Button
+            android:layout_width="19dp"
+            android:layout_height="29dp"
+            android:layout_column="8"
+            android:padding="1dp"
+            android:text="5"
+            android:layout_columnSpan="1"
+            android:background="@color/transpanent"
+            android:textColor="@color/black"
+            android:layout_row="16"
+            android:onClick="myz2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="16"
+            android:layout_column="13"
+            android:layout_columnSpan="2"
+            android:text="ср.б"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="11" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="12" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="30dp"
+            android:layout_height="19dp"
+            android:layout_row="0"
+            android:layout_column="12"
+            android:text=""
+            android:background="@color/transpanent"/>
+
+    </GridLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

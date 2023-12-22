@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="red">#FF0000</color>
+    <color name="sch00l">#81c3cf</color>
+    <color name="transpanent">#00FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">SchoolDairy</string>
+    <string name="gcm_defaultSenderId" translatable="false">172498404063</string>
+    <string name="google_api_key" translatable="false">AIzaSyDC7yKAggbGLRRqKHvsTkByOaWiF8GKlrk</string>
+    <string name="google_app_id" translatable="false">1:172498404063:android:2410138a5e7ca0ce775f6a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDC7yKAggbGLRRqKHvsTkByOaWiF8GKlrk</string>
+    <string name="google_storage_bucket" translatable="false">schooldairy41.appspot.com</string>
+    <string name="project_id" translatable="false">schooldairy41</string>
+    <style name="Base.Theme.BottomNavBar" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.BottomNavBar" parent="Base.Theme.BottomNavBar"/>
+</resources>

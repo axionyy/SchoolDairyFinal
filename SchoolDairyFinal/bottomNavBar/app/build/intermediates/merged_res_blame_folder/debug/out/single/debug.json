@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_foning1.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\foning1.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-hdpi_medium_logo_icon_259364.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-hdpi\\medium_logo_icon_259364.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_ava7.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\ava7.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_filler.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\filler.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\layout_activity_raspisanye.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\layout\\activity_raspisanye.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_home.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_ava3.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\ava3.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-pngs-30:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\layout_activity_add_student.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\layout\\activity_add_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_ava8.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\ava8.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_profile.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_journal.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\journal.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_ava1.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\ava1.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_iconnka.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\iconnka.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_exit.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\exit.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_ava4.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\ava4.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_myclass.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\myclass.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\layout_activity_my_class.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\layout\\activity_my_class.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_ava9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\ava9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\layout_activity_result.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\layout\\activity_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_avatarka_transpanent.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\avatarka_transpanent.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_ava5.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\ava5.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_backgr.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\backgr.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\layout_activity_admin_panel.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\layout\\activity_admin_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_ava6.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\ava6.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\layout_activity_add_mark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\layout\\activity_add_mark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_radius.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\radius.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_result.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\result.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\layout_activity_journal.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\layout\\activity_journal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\layout_activity_add_lesson.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\layout\\activity_add_lesson.xml"
+    },
+    {
+        "merged": "com.example.bottomnavbar.app-merged_res-35:/layout_activity_add_zametka.xml.flat",
+        "source": "com.example.bottomnavbar.app-main-37:/layout/activity_add_zametka.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\drawable_ava2.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\drawable\\ava2.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.bottomnavbar.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.bottomnavbar.app-merged_res-35:/layout_activity_result.xml.flat",
+        "source": "com.example.bottomnavbar.app-main-37:/layout/activity_result.xml"
+    }
+]
